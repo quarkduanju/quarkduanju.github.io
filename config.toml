@@ -1,0 +1,29 @@
+baseURL = "/"
+languageCode = "zh-CN"
+title = "夸克网盘短剧分享"
+theme = "mainroad"
+paginate=50
+
+enableRobotsTXT = true
+hasCJKLanguage=true
+
+[taxonomies]
+  category = 'categories'
+  tag = 'tags'
+
+[related]
+  includeNewer = false
+  threshold = 80
+  toLower = false
+[[related.indices]]
+  name = 'categories'
+  weight = 80
+[[related.indices]]
+  name = 'tags'
+  weight = 80
+[[related.indices]]
+  name = 'date'
+  weight = 80
+
+[params]
+description = "免费夸克网盘各种精品短剧"
